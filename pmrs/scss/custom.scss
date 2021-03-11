@@ -1,0 +1,41 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import "../bootstrap/scss/bootstrap";
+@import "general";
+@import "header";
+@import "hero";
+@import "footer";
+
+.nav-container {
+    width: 80%;
+    margin: auto auto;
+}
+
+/* -------- Section & Divider ---------- */
+section {
+    position: relative;
+}
+section > .container,
+section > .container-fluid {
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.divider .container {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.divider .container.small-padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.divider .container.extra-padding {
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+ background-color: #b9afad;
+}

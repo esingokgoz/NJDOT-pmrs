@@ -1,0 +1,280 @@
+/* $darkslateblue: #414a9f;
+$darkcyan: #0c71b9;
+$dodgerblue: #33b6f2;
+$aliceblue: #ecf6ff;
+$ghostwhite: #f7f8fa;
+$purple: #913c97;
+$white: #fff;
+
+$theme-colors: (
+    "darkslateblue": $darkslateblue,
+    "darkcyan": $darkcyan,
+    "dodgerblue": $dodgerblue,
+    "ghostwhite": $ghostwhite,
+    "white": $white,
+    "aliceblue": $aliceblue,
+    "purple": $purple,
+);
+
+.text-darkslateblue{ color: $darkslateblue; }
+.text-darkcyan{ color: $darkcyan; }
+.text-dodgerblue{ color: $dodgerblue; }
+.text-purple{ color: $purple; }
+.text-white{ color: $white; }
+.text-center{ text-align: center !important; }
+
+.bkg-darkslateblue{ background-color: $darkslateblue; }
+.bkg-dodgerblue{ background-color: $dodgerblue; }
+.bkg-darkcyan { background-color: $darkcyan; }
+.bkg-ghostwhite{ background-color: $ghostwhite; }
+.bkg-white{ background-color: $white; } */
+
+.hero-img {
+    background-image: url('/pmrs/images/PMRS-banner1920.jpg'); 
+    height: 100%;
+    height: 791px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+}
+.hero-text{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white; 
+}
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
+.section-white {
+    margin: 150px 150px 150px 150px;
+    background-color: white;
+}
+
+.section-aliceblue {
+    /* margin: 100px auto 100px auto; */
+    background-color: #ecf6ff;
+    padding: 50px;
+    
+}
+
+.container-80{
+    width: 80%;
+    margin: auto auto;
+}
+
+.icon-blocks {
+    h1, h2, h3, h4 {
+        height: 2.5em;
+    }
+
+    .btn-link {
+        padding-left: 0;
+    }
+}
+
+.icons{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.p10{ padding: 10px; }
+.pl-10{ padding-left: 10px !important; }
+.pr-right { padding-right: 10px !important; }
+.m-0 { margin: 0px !important; }
+
+.getting-started{
+    background-image: url('/pmrs/images/PMRS-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 20px 60px;
+    min-height: 300px;
+} 
+
+.float-left{ float: left;
+}
+
+
+/* search form */
+.btn-dark.btn-theme-colored {
+    color: #fff;
+    background-color: #00A4EF;
+    border-color: #00A4EF;
+}
+.btn-sm {
+    font-size: 12px;
+    padding: 5px 17px;
+}
+.btn-group-sm>.btn, .btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+form label {
+    font-weight: bold;
+}
+@media (min-width: 768px){
+    .form-inline .form-group {
+        display: inline-block;
+        margin-bottom: 0;
+        vertical-align: middle;
+    }
+}
+
+/* -------- Btn-Default ---------- */
+.btn {
+    font-size: 13px;
+    padding: 8px 22px;
+  }
+  /* -------- Btn-xs ---------- */
+  .btn-xs {
+    font-size: 11px;
+    padding: 3px 14px;
+  }
+  /* -------- Btn-sm ---------- */
+  .btn-sm {
+    font-size: 12px;
+    padding: 5px 17px;
+  }
+  /* -------- Btn-lg ---------- */
+  .btn-lg {
+    font-size: 14px;
+    padding: 10px 26px;
+  }
+  /* -------- Btn-xl ---------- */
+  .btn-xl {
+    font-size: 16px;
+    padding: 13px 32px;
+  }
+
+.media {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .media-body {
+    flex: 1;
+  }
+
+
+.w3-display-container{position:relative;}
+
+/* footer */
+.pb-10 { padding-bottom: 10px;}
+.pt-10 { padding-top: 10px; }
+.widget { margin-bottom: 30px; }
+
+#footer
+{ 
+    color: #666666;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(12, 113, 185) !important;
+    .fab, h5 {color: white;}
+    a {
+        color: #666666 !important;
+    }
+
+.blue-footer {
+    padding: 30px 0 15px 0
+}
+.footer-bottom {
+    background-color: white;
+    padding: 15px 0; 
+}
+
+
+.form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-gray 
+    {
+        color: #333333;
+        background-color: #eeeeee;
+        border-color: #afafaf;
+    }
+
+    h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        line-height: 1.42857143;
+
+    }
+    h5, .h5 {
+        font-size: 14px;
+    }
+}
+
+
+.contact-details li {display: inline-block; margin-right: 8px;}
+
+.clients img {background-color: #fff; margin-bottom: 1rem;}
+.clients h4 {color: white;}
+
+/* header */
+.header-top{ padding: 5px 0; }
+.header-list {
+    list-style-type: none; 
+    display: flex;
+    color: #666666; 
+    margin: 0;
+    padding: 0;
+    li {
+        margin-right: 15px;
+        a {color: #666666 !important;}
+    }
+}
+
+.styled-icons {
+
+    margin:0;
+    display: flex;
+    list-style-type: none;
+    li {
+        background-color: #00A4EF; 
+        border-radius: 0 !important;
+        padding: 0px 2px 0px 7px; 
+        margin-right: 10px;
+        a {
+        font-size: 13px;
+        height: 30px;
+        line-height: 30px;
+        margin: 2px 7px 2px 0;
+        width: 30px;
+        border-radius: 0;
+        color: white !important;
+        }
+    }
+}

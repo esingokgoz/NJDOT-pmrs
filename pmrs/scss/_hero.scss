@@ -1,0 +1,19 @@
+
+.hero-img {
+    background-image: url('/pmrs/images/PMRS-banner1920.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+
+    color: white;
+    font-size: 22px;
+
+    .large {
+        font-size: 50px;
+        display: block;
+    }
+
+}

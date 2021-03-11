@@ -1,0 +1,199 @@
+$darkslateblue: #414a9f;
+$darkcyan: #0c71b9;
+$dodgerblue: #33b6f2;
+$aliceblue: #ecf6ff;
+$ghostwhite: #f7f8fa;
+$purple: #913c97;
+$white: #fff;
+
+$theme-colors: (
+    "darkslateblue": $darkslateblue,
+    "darkcyan": $darkcyan,
+    "dodgerblue": $dodgerblue,
+    "ghostwhite": $ghostwhite,
+    "white": $white,
+    "aliceblue": $aliceblue,
+    "purple": $purple,
+);
+
+.text-darkslateblue{ color: $darkslateblue; }
+.text-darkcyan{ color: $darkcyan; }
+.text-dodgerblue{ color: $dodgerblue; }
+.text-purple{ color: $purple; }
+.text-white{ color: $white; }
+.text-center{ text-align: center !important; }
+
+.bkg-darkslateblue{ background-color: $darkslateblue; }
+.bkg-dodgerblue{ background-color: $dodgerblue; }
+.bkg-darkcyan { background-color: $darkcyan; }
+.bkg-ghostwhite{ background-color: $ghostwhite; }
+.bkg-white{ background-color: $white; }
+
+.hero-img {
+    background-image: url('/pmrs/images/PMRS-banner1920.jpg'); 
+    height: 100%;
+    height: 791px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+}
+.hero-text{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white; 
+}
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
+.section-white {
+    margin: 150px 150px 150px 150px;
+    background-color: $white;
+}
+
+.section-aliceblue {
+    // margin: 100px auto 100px auto;
+    background-color: $aliceblue;
+    padding: 50px;
+    
+}
+
+.container-80{
+    width: 80%;
+    margin: auto auto;
+}
+
+.icon-blocks {
+    h1, h2, h3, h4 {
+        height: 2.5em;
+    }
+
+    .btn-link {
+        padding-left: 0;
+    }
+}
+
+.icons{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.p10{ padding: 10px; }
+.pl-10{ padding-left: 10px !important; }
+.pr-right { padding-right: 10px !important; }
+.m-0 { margin: 0px !important; }
+
+.getting-started{
+    background-image: url('/pmrs/images/PMRS-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 20px 60px;
+    min-height: 300px;
+} 
+
+.float-left{ float: left;
+}
+
+
+/* search form */
+.btn-dark.btn-theme-colored {
+    color: #fff;
+    background-color: #00A4EF;
+    border-color: #00A4EF;
+}
+.btn-sm {
+    font-size: 12px;
+    padding: 5px 17px;
+}
+.btn-group-sm>.btn, .btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+// .btn {
+//     display: inline-block;
+//     padding: 6px 12px;
+//     margin-bottom: 0;
+//     font-size: 14px;
+//     font-weight: 400;
+//     line-height: 1.42857143;
+//     text-align: center;
+//     white-space: nowrap;
+//     vertical-align: middle;
+//     -ms-touch-action: manipulation;
+//     touch-action: manipulation;
+//     cursor: pointer;
+//     -webkit-user-select: none;
+//     -moz-user-select: none;
+//     -ms-user-select: none;
+//     user-select: none;
+//     background-image: none;
+//     border: 1px solid transparent;
+//     border-radius: 4px;
+// }
+form label {
+    font-weight: bold;
+}
+@media (min-width: 768px){
+    .form-inline .form-group {
+        display: inline-block;
+        margin-bottom: 0;
+        vertical-align: middle;
+    }
+}
+
+/* -------- Btn-Default ---------- */
+.btn {
+    font-size: 13px;
+    padding: 8px 22px;
+  }
+  /* -------- Btn-xs ---------- */
+  .btn-xs {
+    font-size: 11px;
+    padding: 3px 14px;
+  }
+  /* -------- Btn-sm ---------- */
+  .btn-sm {
+    font-size: 12px;
+    padding: 5px 17px;
+  }
+  /* -------- Btn-lg ---------- */
+  .btn-lg {
+    font-size: 14px;
+    padding: 10px 26px;
+  }
+  /* -------- Btn-xl ---------- */
+  .btn-xl {
+    font-size: 16px;
+    padding: 13px 32px;
+  }
+
+.media {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .media-body {
+    flex: 1;
+  }
+
+
+.w3-display-container{position:relative;}
+

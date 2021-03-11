@@ -1,0 +1,64 @@
+.pb-10 { padding-bottom: 10px;}
+.pt-10 { padding-top: 10px; }
+.widget { margin-bottom: 30px; }
+
+#footer
+{ 
+    color: #666666;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(12, 113, 185) !important;
+    .fab, h5 {color: white;}
+    a {
+        color: #666666 !important;
+    }
+
+.blue-footer {
+    padding: 30px 0 15px 0
+}
+.footer-bottom {
+    background-color: white;
+    padding: 15px 0; 
+}
+
+
+.form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-gray 
+    {
+        color: #333333;
+        background-color: #eeeeee;
+        border-color: #afafaf;
+    }
+
+    h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        line-height: 1.42857143;
+
+    }
+    h5, .h5 {
+        font-size: 14px;
+    }
+}
+
+
+.contact-details li {display: inline-block; margin-right: 8px;}
+
+.clients img {background-color: #fff; margin-bottom: 1rem;}
+.clients h4 {color: white;}
