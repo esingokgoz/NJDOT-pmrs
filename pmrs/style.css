@@ -278,3 +278,65 @@ form label {
         }
     }
 }
+
+.wr_nav {
+
+    /*padding: 0px 75px;*/
+    min-height: 80px;
+  
+  }
+  
+  a.custNav {
+  
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-style: normal;
+    background: transparent;
+  
+  }
+
+  @media (min-width: 1054px) {
+    .wr_nav {
+      padding: 0px 70px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .hero-text{
+        text-align: center;
+    }
+
+    .dot-logo {
+
+        width: 200px!important;
+    }
+
+    .wr_nav {
+        padding: 0px 50px;
+    }
+  }
+
+  @media (max-width: 768px) {
+
+    .jumbotron {
+        background-image: url(images/PMRS-banner1920.jpg)!important;
+    }
+    
+  }
+
+  @media (max-width: 576px) {
+
+    .wr_nav {
+        padding: 0px 5px;
+    }
+  }
+
+  .jumbotron {
+
+    background-image: url(images/PMRS-banner1.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 450px 0;
+    background-position: center center;
+  }
