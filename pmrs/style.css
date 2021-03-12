@@ -102,10 +102,17 @@ $theme-colors: (
 .getting-started{
     background-image: url('/pmrs/images/PMRS-mobile.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 20px 60px;
-    min-height: 300px;
+    background-size: auto 100%;
+    background-position: center;
+    padding: 175px;
 } 
+
+.getting-started2{
+
+    width: 100%;
+    height: auto;
+
+}
 
 .float-left{ float: left;
 }
@@ -302,14 +309,14 @@ form label {
     }
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 1000px) {
     .hero-text{
         text-align: center;
     }
 
     .dot-logo {
 
-        width: 200px!important;
+        width: 225px!important;
     }
 
     .wr_nav {
@@ -317,10 +324,18 @@ form label {
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
 
     .jumbotron {
         background-image: url(images/PMRS-banner1920.jpg)!important;
+    }
+
+    .hero-text {
+
+        text-align: center;
+        transform: none;
+        position: inherit;
+
     }
     
   }
@@ -340,3 +355,37 @@ form label {
     padding: 450px 0;
     background-position: center center;
   }
+
+  .getting-started-section {
+
+    padding-top: 20px;
+
+  }
+
+  a.create-account-button {
+
+    text-decoration: none;
+    color: #fff;
+
+  }
+
+  .prms-section {
+
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+  }
+
+  .quotes-section {
+
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+  }
+
+  .button-style {
+
+    padding-bottom: 20px;
+
+  }
+
