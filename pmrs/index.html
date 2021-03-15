@@ -57,6 +57,73 @@
 </head>
 
 <body >
+
+  <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-light narbar-style wr_nav1 first_nav" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="https://njdotlocalaidrc.com/"><img class="dot-logo" src="/pmrs/images/RC-logo.png" style="height:100px; width: 250px;"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="col-md-3">
+            <ul class="header-list">
+              <li> <i class="fas fa-phone"></i> (609) 649-9395</li>
+              <li> 
+                <a class="" style="text-decoration: underline;" href="mailto:DOT-LocalAID.ResourceCenter@dot.nj.gov"><i class="fas fa-envelope"></i> Ask an Expert</a> 
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">      
+            <ul class="styled-icons">
+              <li >
+                <a href="https://www.facebook.com/NJDOTLocalAid" aria-label="Facebook"><i class="fab fa-facebook " aria-hidden="true"></i></a>
+              </li>
+              <li >
+                <a href="https://twitter.com/NJDOTLOCALAID" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li >
+                <a href="https://www.linkedin.com/showcase/njdot-local-aid-resource-center/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCMy3-bxG6hzTzVwqnB02YRw?disable_polymer=true" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+              </li>
+              <li >
+                <a href="https://www.instagram.com/njdotlarc/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              </li>         
+            </ul>
+          </div>
+          <div class="col-md-3 text-end">
+            <perch:form id="search" method="get" action="/search.php" class="form-inline">
+              <div class="form-group">
+                <label class="input-group-label sr-only" for="search-q">Search </label>
+                <input name="q" id="search-q" type="search" aria-label="Search" class="input-group-field" placeholder="Search">
+              </div>
+              <button class="btn btn-dark btn-theme-colored btn-sm mt-0 btn-search" aria-label="Search" type="submit"><i class="fa fa-search"></i></button>
+            </perch:form> 
+          </div>
+          <!--<div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item px-2">
+                <a class="nav-link js-scroll-trigger custNav text-darkslateblue" aria-current="page" href="https://mthbg-njdot.azurewebsites.net/whats-pmrs.php" style="color: #414a9f;">What's PMRS?</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link js-scroll-trigger custNav text-darkslateblue" href="https://mthbg-njdot.azurewebsites.net/whats-new.php" style="color: #414a9f;">What's New?</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link js-scroll-trigger custNav text-darkslateblue" style="color: #414a9f;" href="https://mthbg-njdot.azurewebsites.net/pmrs-training.php">Training & Resources</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link js-scroll-trigger custNav text-darkslateblue" href="https://app.e-builder.net/auth/www/index.aspx?ReturnUrl=%2f" style="color: #414a9f;">PMRS Sign In</a>
+              </li>
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </ul>
+          </div>-->
+        </div>
+      </nav>
+    </div>
 <!--<div class="header">
     <div class="header-top sm-text-center">
         <div class="container">
@@ -137,31 +204,33 @@
     </nav>-->
 
     <div class="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top narbar-style wr_nav" id="mainNav">
-        <a class="navbar-brand js-scroll-trigger" href="https://mthbg-njdot.azurewebsites.net/pmrs/"><img class="dot-logo" src="/pmrs/images/PMRS-logo.png" style="height:100px; width: 250px;"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item px-2">
-              <a class="nav-link js-scroll-trigger custNav text-darkslateblue" aria-current="page" href="https://mthbg-njdot.azurewebsites.net/whats-pmrs.php" style="color: #414a9f;">What's PMRS?</a>
-            </li>
-            <li class="nav-item px-2">
-              <a class="nav-link js-scroll-trigger custNav text-darkslateblue" href="https://mthbg-njdot.azurewebsites.net/whats-new.php" style="color: #414a9f;">What's New?</a>
-            </li>
-            <li class="nav-item px-2">
-              <a class="nav-link js-scroll-trigger custNav text-darkslateblue" style="color: #414a9f;" href="https://mthbg-njdot.azurewebsites.net/pmrs-training.php">Training & Resources</a>
-            </li>
-            <li class="nav-item px-2">
-              <!--<button type="button" class="btn bkg-darkslateblue text-white nav-link js-scroll-trigger" href="https://app.e-builder.net/auth/www/index.aspx?ReturnUrl=%2f">PMRS Sign In</button>-->
-              <a class="nav-link js-scroll-trigger custNav text-darkslateblue" href="https://app.e-builder.net/auth/www/index.aspx?ReturnUrl=%2f" style="color: #414a9f;">PMRS Sign In</a>
-            </li>
-            <form class="form-inline">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top-2 narbar-style wr_nav" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="https://mthbg-njdot.azurewebsites.net/pmrs/"><img class="dot-logo" src="/pmrs/images/PMRS-logo.png" style="height:100px; width: 235px;"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item px-2">
+                <a class="nav-link js-scroll-trigger custNav text-darkslateblue" aria-current="page" href="https://mthbg-njdot.azurewebsites.net/whats-pmrs.php" style="color: #414a9f;">What's<br> PMRS?</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link js-scroll-trigger custNav text-darkslateblue" href="https://mthbg-njdot.azurewebsites.net/whats-new.php" style="color: #414a9f;">What's<br> New?</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link js-scroll-trigger custNav text-darkslateblue" style="color: #414a9f;" href="https://mthbg-njdot.azurewebsites.net/pmrs-training.php">Training &<br> Resources</a>
+              </li>
+              <li class="nav-item px-2">
+                <button type="button" class="btn bkg-darkslateblue text-white nav-link js-scroll-trigger" href="https://app.e-builder.net/auth/www/index.aspx?ReturnUrl=%2f"><a class="nav-link js-scroll-trigger custNav text-darkslateblue" href="https://app.e-builder.net/auth/www/index.aspx?ReturnUrl=%2f" style="color: #fff;">PMRS Sign In</a></button>
+                <!--<a class="nav-link js-scroll-trigger custNav text-darkslateblue" href="https://app.e-builder.net/auth/www/index.aspx?ReturnUrl=%2f" style="color: #414a9f;">PMRS Sign In</a>-->
+              </li>
+              <!--<form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>-->
+            </ul>
+          </div>
         </div>
       </nav>
     </div>
@@ -408,7 +477,7 @@
 
   <footer id="footer" class="footer">
     <div class="container blue-footer">
-      <div class="row justify-content-center" id="sign-us">
+      <div class="justify-content-center" id="sign-us">
         <div class="col-md-7">
           <div class="widget ">
             <h5 class="widget-title mb-10">Subscribe With Us</h5>
